@@ -11,7 +11,7 @@ class Demo implements interf{
 }
 public class InterfaceImplementation {
 	public static void main(String[] args) {
-		Demo d=new Demo();
-		d.m1();
+		interf i=new Demo();
+		i.m1();
 	}
 }
