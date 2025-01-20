@@ -1,3 +1,4 @@
+/* Without functional interface */
 package FunctionalInterface;
 
 interface interf{
