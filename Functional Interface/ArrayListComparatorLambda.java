@@ -18,7 +18,8 @@ public class ArrayListComparatorLambda {
 		System.out.println(l);
 		Comparator<Integer> c=(I1,I2)-> (I1<I2)?-1:(I1>I2)?1:0;
 		Collections.sort(l, c);
-		System.out.println(l);
+		//System.out.println(l);
+		l.stream().forEach(System.out::println);
 	}
 
 }
